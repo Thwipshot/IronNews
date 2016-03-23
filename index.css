@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+ul {
 	list-style: none;
 }
 blockquote, q {
@@ -47,6 +47,38 @@ table {
 	border-spacing: 0;
 }
 
-header {
+header, header ul{
   background-color: #8D90A1;
+
+}
+
+.title-menu {
+	padding: 5px 5px 5px 40px;
+}
+
+.title-menu .page-name {
+	font-weight: bold;
+
+}
+
+.nav-links li {
+	display:inline-block;
+	border-right: 2px solid white;
+	padding-right: 6px;
+}
+
+.foot-links li {
+	display: inline-block;
+	border-right: 2px solid gray;
+	padding-right: 6px;
+
+}
+body {
+	font-family: sans-serif;
+}
+
+
+footer {
+	border-top: 3px solid gray;
+	padding-top: 15px;
 }
